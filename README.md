@@ -123,7 +123,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] disable Bluetooth if you don't need it (Settings > Bluetooth)
 - [x] don't stay in Bluetooth settings (Settings > Bluetooth) while it's enabled, as your device is in discoverable mode
 - [x] disable WiFi if you don't need it (Settings > WiFi)
-- [x] disable WiFi auto-join networks and hostposts (Settings > WiFi)
+- [x] disable WiFi auto-join networks and hostspots (Settings > WiFi)
 - [x] disable AirDrop if you don't need it (Settings > General > AirDrop)
 - [x] disable automatic discover to nearby AirPlay if you don't need it (Settings > General > AirPlay & Handoff > Automatically AirPlay to TV)
 - [x] auto-lock the screen (Settings > Display & Brightness > Auto-Lock)
