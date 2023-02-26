@@ -197,6 +197,10 @@ Simple classic theft can also do the trick. If someone manages to steal your pho
 
 You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one.
 
+## iOS for developers and security pros
+
+(todo)
+
 ## Going further
 
 * [Apple Security Bug Bounty Program](https://security.apple.com/bounty/)
