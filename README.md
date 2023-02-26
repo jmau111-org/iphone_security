@@ -57,8 +57,8 @@ When enabled, the surface attack is drastically reduced to the point that some f
 
 * most message attachments are blocked
 * links and link previews are disabled
-* explicit approval to unlock accessories or connected computers
-* no more shared Albums
+* explicit approval is required to unlock accessories or connected computers
+* shared Albums are hidden and disabled
 * web browsing technology is restricted
 
 Indeed, the LockDown mode is not meant for everybody, but Apple seems to target high-risk profiles, a.k.a non-standard users with a specific threat model, like activists, journalists, or even political dissidents.
@@ -71,7 +71,7 @@ However, these sophisticated actors are constantly working on new exploits, and 
 
 While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities. 
 
-It's unlikely individuals can fight against global actors using just their smartphone! Would nation states even allow such products?!
+It's unlikely individuals can fight against global actors using just their smartphones! Would nation states even allow such products?!
 
 [^1]: 0-days are vulnerabilities that remain unknown or unpatched by those who should be interested in their mitigation (e.g., vendors, developers), and zero-click attacks often leverage 0-days to infect the victims without any user interaction.
 
