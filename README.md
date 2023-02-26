@@ -178,7 +178,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
 - [x] use CarPlay only in USB mode and not Bluetooth (wireless) to avoid Car Whisperer attacks (Settings > General > CarPlay)
-- [ ] cover your screen when entering your passcode
+- [ ] cover your screen when entering your passcode in public
 - [ ] switch to Airplane mode
 - [ ] use hardwarde security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
