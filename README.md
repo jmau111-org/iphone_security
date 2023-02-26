@@ -16,8 +16,6 @@ It is one of the best selling products of all time, at least, in Tech. This litt
 
 The latest series are powered by the Apple Silicon chip and provide interesting built-in security mechanisms.
 
-However, what makes iPhone so special is probably its operating system iOS.
-
 ## Notable security features of Apple Silicon chips
 
 ### Apple SoCs: security enclave
