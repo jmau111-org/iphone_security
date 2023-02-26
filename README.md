@@ -4,7 +4,7 @@ Practical guide to better understand iPhone and its security mechanisms.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/iphone_security?label=last%20update%3A)
 
-## Disclaimer
+## ⚠️ Disclaimer ⚠️
 
 This guide is meant for **iOS 16 and later versions**. Some parts may be debatable, but it's not uncommon in security guides.
 
