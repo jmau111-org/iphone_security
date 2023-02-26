@@ -227,6 +227,8 @@ Note that programs like Cydia can be hidden, so an alternative approach could co
 
 There used to be an App called "System and Security Info" to run such diagnostic, but Apple [killed it](https://www.digitaltrends.com/mobile/system-and-security-info-iphone-app-news/) in 2016.
 
+This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-way) may provide some hints, though.
+
 ### Getting started with iPhone Forensics
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
