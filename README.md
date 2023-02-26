@@ -120,7 +120,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
 - [x] use a strong Apple ID password and change it regularly
 - [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
-- [x] filter unknown senders (Settings > Messages > Filters Unknown Senders)
+- [x] filter unknown senders (Settings > Messages > Filter Unknown Senders)
 - [x] disable Bluetooth if you don't need it (Settings > Bluetooth)
 - [x] don't stay in Bluetooth settings (Settings > Bluetooth) while it's enabled, as your device is in discoverable mode
 - [x] disable WiFi if you don't need it (Settings > WiFi)
