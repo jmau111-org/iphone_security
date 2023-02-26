@@ -204,7 +204,7 @@ You will have to set 2 keys in the settings, as Apple requires an emergency key 
 
 Roughly speaking, it is how iOS securely stores passwords[^3], authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
 
-iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
+iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (user preferences in unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
 
 The Keychain is supposed to be accessible only to the app that created the data or other apps or services from the same developer or organization. In addition, the user has to grant permission, which requires a passcode, Touch ID, or Face ID.
 
