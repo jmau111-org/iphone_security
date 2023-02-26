@@ -1,0 +1,158 @@
+# Another iPhone Security Guide
+
+Practical guide to better understand iPhones and its security mechanisms.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/iphone_security?label=last%20update%3A)
+
+## Disclaimer
+
+This guide is meant for **iOS 16 and later versions**. Some parts may be debatable, but it's not uncommon in security guides.
+
+## What is iPhone?
+
+The first [iPhone](https://support.apple.com/guide/iphone/welcome/ios) was released in June 2007.
+
+It is one of the best selling products of all time, at least, in Tech. This little smartphone has changed pretty much everything in the industry and is probably the cornerstone of Apple's empire.
+
+The latest series are powered by the Apple Silicon chip and provide interesting built-in security mechanisms.
+
+However, what makes iPhone so special is probably its operating system iOS.
+
+## What is iOS?
+
+Apple has specifically developed iOS for its iPhone. Unlike Android, it's not an open-source project and only Apple can modify and distribute it.
+
+However, let's skip the debate "iOS vs. Android, which one is better" that is totally off-topic here.
+
+iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
+
+## iOS 16: a quick review
+
+### New iOS 16 security features
+
+Beyond Face ID and other popular settings, iOS 16 provides interesting new security features:
+
+* **Rapid Security Response**: you can activate an option to install security hotfixes automatically as soon as it's released
+* **Safety Check**: shared access can be removed easily with an "emergency reset"
+* **protected clipboard**: apps cannot access it without your explicit permission
+* [**security keys for Apple ID**](https://support.apple.com/en-us/HT213154) (iOS 16.3)
+
+### The potential benefits of an opaque system
+
+As long as users don't make crazy moves, like **jailbreaking** to install untrusted apps, the system will be hard to fool.
+
+Apple controls the devices but also third-party applications. For now, these Apps must obtain the App Store approval, which is a very strict process that can require important modifications.
+
+This approach has some cons we'll see later, but such limited ecosystem allows supporting older devices a bit longer.
+
+Besides, iOS has a built-in sandboxing mechanism that restricts apps to specific resources and data, and the system encrypts passwords and other sensitive information automatically.
+
+This tends to make classic attacks more challenging. Besides, Apple enables many advanced security features by default, unlike other systems.
+
+### iOS 16 Lockdown Mode
+
+[The LockDown mode](https://support.apple.com/en-us/HT212650) is marketed as an "extreme protection" for individuals who might be targeted by very sophisticated adversaries.
+
+When enabled, the surface attack is drastically reduced to the point that some features may no longer work:
+
+* most message attachments are blocked
+* links and link previews are disabled
+* explicit approval to unlock accessories or connected computers
+* no more shared Albums
+* web browsing technology is restricted
+
+Indeed, the LockDown mode is not meant for everybody, but Apple seems to target high-risk profiles, a.k.a non-standard users with a specific threat model, like activists, journalists, or even political dissidents.
+
+PortSwigger [reported](https://portswigger.net/daily-swig/lockdown-mode-apple-offers-2m-bug-bounty-for-vulnerabilities-in-new-anti-spyware-tech) that Apple has offered a huge reward (up to $2m!) for a working LockdDown Mode bypass.
+
+The company is targeting mercernary enterprises like NSO that successfully defeated the so-called "unbreakable" iPhone in the past (e.g., with the Pegasus software).
+
+However, these sophisticated actors are constantly working on new exploits, and can leverage _alternative_ markets for iOS zero-days and zero-click exploits [^1].
+
+While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities. 
+
+It's unlikely individuals can fight against global actors using just their smartphone! Would nation states even allow such products?!
+
+[^1]: 0-days are vulnerabilities that remain unknown or unpatched by those who should be interested in their mitigation (e.g., vendors, developers), and zero-click attacks often leverage 0-days to infect the victims without any user interaction.
+
+### iOS is not exactly Wonderland
+
+Apple aims to bring war to advanced attackers but may create the perfect conditions for them: it might be harder for inexperienced criminals to attack, but defenders and security researchers might also fail to detect and mitigate advanced threats.
+
+In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against skiddies but it may attract more advanced attackers.
+
+Many security researchers struggle to find relevant documentation for important components and some compare Apple's products to "black boxes."
+
+Another big caveat is that iOS users are tied to Apple. If the company misses a critical vulnerability or makes bad decisions, there's very little, perhaps nothing you can do about it.
+
+### The latest versions are not immune to attacks
+
+Trellix researcher Austin Emmitt recently discovered new vulnerabilities and declared:
+
+> [These new vulnerabilities] represent a significant breach of the security model of macOS and iOS which relies on individual applications having fine-grained access to the subset of resources they need and querying higher privileged services to get anything else
+
+[Source: Hackernews](https://thehackernews.com/2023/02/apple-warns-of-3-new-vulnerabilities.html)
+
+## How to secure iPhones
+
+### iPhone privacy basics
+
+You can opt out of various telemetries during the first install, but in case you missed it:
+
+- [x] disable all Siri options if you don't need Siri (Settings > Siri & Search)
+- [x] disable analytics (Settings > Analytics & Improvments)
+- [x] disable Apple ads (Settings > Apple Advertising > Personalized Ads)
+- [x] disable fitness tracking if you don't need it (Settings > Motion & Fitness > Fitness tracking)
+- [x] disable location tracking if you don't need it (Settings > Privacy and Security > Location Services)
+- [x] disable app tracking if you don't need it (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
+- [x] hide your IP from trackers in Safari (Settings > Safari > Hide IP Address)
+- [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
+
+### iPhone security basics
+
+- [x] **don't** Jailbreak (unless you are a security researcher or a developer, but be aware of the consequences)
+- [x] use a password manager
+- [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates
+- [x] keep all apps up-to-date
+- [x] don't click on links in unsollicited messages
+- [x] review app permissions (Settings > Privacy and Security)
+- [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
+- [x] use a strong Apple ID password and change it regularly
+- [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
+- [x] filter unknown senders (Settings > Messages > Filters Unknown Senders)
+- [x] disable Bluetooth if you don't need it (Settings > Bluetooth)
+- [x] don't stay in Bluetooth settings (Settings > Bluetooth) while it's enabled, as your device is in discoverable mode
+- [x] disable WiFi if you don't need it (Settings > WiFi)
+- [x] disable WiFi auto-join networks and hostposts (Settings > WiFi)
+- [x] disable AirDrop if you don't need it (Settings > General > AirDrop)
+- [x] disable automatic discover to nearby AirPlay if you don't need it (Settings > General > AirPlay & Handoff > Automatically AirPlay to TV)
+- [x] auto-lock the screen (Settings > Display & Brightness > Auto-Lock)
+
+### In doubt
+
+⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate in your case (check your threat model):
+
+- [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
+- [x] inspect the battery health and activity (Settings > Battery)
+- [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
+- [ ] cover your screen
+- [ ] switch to Airplane mode
+- [ ] use security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
+- [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
+- [ ] enable anti brute-force: erase data after 10 failed passcode attempts (Settings > Face ID & Passcode > Erase Data) [^2]
+- [ ] run a factory reset (Settings > General > Reset > Erase all content and settings)
+- [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > Safety Check)
+
+[^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
+
+## Beyond the scope of this guide
+
+* [Apple Security Bug Bounty Program](https://security.apple.com/bounty/)
+* [Apple Security Guides](https://support.apple.com/en-gb/guide/security/welcome/web)
+* [iOS Pentesting](https://book.hacktricks.xyz/mobile-pentesting/ios-pentesting)
+* [iOS Forensics](https://resources.infosecinstitute.com/topic/ios-forensics/)
+* [macOS iOS Security](https://github.com/houjingyi233/macOS-iOS-system-security)
+* [Awesome iOS resources](https://github.com/gopalkrishnareddy/awesome-iOS-resource)
+* [iOS Security Suite](https://github.com/securing/IOSSecuritySuite)
+* [Open-source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps)
+* [privacytools.io](https://www.privacytools.io/)
