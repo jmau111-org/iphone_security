@@ -222,7 +222,7 @@ Jailbroken iPhones are prone to attacks. Developers may add an extra layer of se
 
 There is no official method, but you may leverage commons apps installed on Jailbroken devices, like [Cydia](https://www.cydiacloud.com/jailbreak/).
 
-Note that programs like Cydia can be hidden, so an alternative approach could consist of launching apps that are notoriously broken by Jailbreak.
+Note that programs like Cydia can be hidden, so an alternative approach could consist of testing apps that are notoriously broken by Jailbreak.
 
 There used to be an App called "System and Security Info" to run such diagnostic, but Apple [killed it](https://www.digitaltrends.com/mobile/system-and-security-info-iphone-app-news/) in 2016.
 
