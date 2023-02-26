@@ -26,6 +26,34 @@ However, let's skip the debate "iOS vs. Android, which one is better" that is to
 
 iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
+## Notable security features of Apple Silicon chips
+
+### Apple SoCs: security enclave
+
+Critical security functions are isolated in a secure environment.
+
+The chips is physically separate from the processor. It has a dedicated firmware and memory management. This aims to reduce the attack surface against software-based techniques but also physical attacks.
+
+It also provides a secure location for storing sensitive data, such as passwords, encryption keys, and biometric information like fingerprints.
+
+Even if the Applicaton Processor kernel is compromised, sensitive user data won't be accessible without the cryptographic keys.
+
+[Apple: security enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)
+
+### Low-level security: secure boot
+
+Apple protects the system against known tampering attacks by only trusting approved software to load during startup.
+
+The very first code executed by the processor (Boot ROM) is immutable.
+
+### PACs
+
+Pointer Authentication Codes (PACs) ensure the authenticity to mitigate memory injections and malicious code execution, like buffer overflows and ROP (Return Oriented Programming) attacks.
+
+> Pointer authentication works by offering a special CPU instruction to add a cryptographic signature — or PAC — to unused high-order bits of a pointer before storing the pointer. Another instruction removes and authenticates the signature after reading the pointer back from memory. Any change to the stored value between the write and the read invalidates the signature. The CPU interprets authentication failure as memory corruption and sets a high-order bit in the pointer, making the pointer invalid and causing the app to crash
+
+[Source: Apple documentation - Pointer authentication](https://developer.apple.com/documentation/security/preparing_your_app_to_work_with_pointer_authentication)
+
 ## iOS 16: a quick review
 
 ### iPhone models compatible with iOS 16
@@ -162,6 +190,8 @@ You can opt out of various telemetries during the first install, but in case you
 [^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
 
 ## About hardware security keys
+
+![](securitykey.png)
 
 Most phishing attacks against Apple IDs aim to steal credentials and classic OTP (One-Time passwords), which can be achieved remotely with SIM jacking or SIM swapping, for example. 
 
