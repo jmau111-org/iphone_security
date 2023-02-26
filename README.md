@@ -131,7 +131,7 @@ You can opt out of various telemetries during the first install, but in case you
 
 ### In doubt
 
-⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate in your case (check your threat model):
+⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
 
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
