@@ -150,6 +150,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
+- [x] use CarPlay only in USB mode and not Bluetooth to avoid Car Whisperer attacks
 - [ ] cover your screen
 - [ ] switch to Airplane mode
 - [ ] use security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
