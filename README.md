@@ -202,7 +202,7 @@ You will have to set 2 keys in the settings, as Apple requires an emergency key 
 
 ### Keychain
 
-Roughly speaking, it is how iOS securely stores passwords[^3], authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
+Roughly speaking, it is how iOS securely stores passwords, authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
 
 iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (user preferences in unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
 
@@ -216,8 +216,6 @@ The Keychain Services API can be used to save various sensitive data:
 * sensitive notes
 * cryptographic keys
 * certificates
-
-[^3]: Still, from the users perspective, password managers might be better than iCloud Keychain.
 
 ### Anti-Jailbreak
 
