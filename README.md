@@ -18,14 +18,6 @@ The latest series are powered by the Apple Silicon chip and provide interesting 
 
 However, what makes iPhone so special is probably its operating system iOS.
 
-## What is iOS?
-
-Apple has developed iOS for its iPhone and a few other products. Unlike Android, it's not an open-source project and only Apple can modify and distribute it.
-
-However, let's skip the debate "iOS vs. Android, which one is better" that is totally off-topic here.
-
-iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
-
 ## Notable security features of Apple Silicon chips
 
 ### Apple SoCs: security enclave
@@ -53,6 +45,14 @@ Pointer Authentication Codes (PACs) ensure the authenticity to mitigate memory i
 > Pointer authentication works by offering a special CPU instruction to add a cryptographic signature — or PAC — to unused high-order bits of a pointer before storing the pointer. Another instruction removes and authenticates the signature after reading the pointer back from memory. Any change to the stored value between the write and the read invalidates the signature. The CPU interprets authentication failure as memory corruption and sets a high-order bit in the pointer, making the pointer invalid and causing the app to crash
 
 [Source: Apple documentation - Pointer authentication](https://developer.apple.com/documentation/security/preparing_your_app_to_work_with_pointer_authentication)
+
+## What is iOS?
+
+Apple has developed iOS for its iPhone and a few other products. Unlike Android, it's not an open-source project and only Apple can modify and distribute it.
+
+However, let's skip the debate "iOS vs. Android, which one is better" that is totally off-topic here.
+
+iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
 ## iOS 16: a quick review
 
