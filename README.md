@@ -173,11 +173,12 @@ You can opt out of various telemetries during the first install, but in case you
 
 ⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
 
+- [x] use use Face ID or Touch ID in public
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
 - [x] use CarPlay only in USB mode and not Bluetooth (wireless) to avoid Car Whisperer attacks (Settings > General > CarPlay)
-- [ ] cover your screen
+- [ ] cover your screen when entering your passcode in public
 - [ ] switch to Airplane mode
 - [ ] use hardwarde security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
@@ -196,6 +197,39 @@ Most phishing attacks against Apple IDs aim to steal credentials and classic OTP
 Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
 
 You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one.
+
+## iOS for developers and security pros
+
+### Keychain
+
+Roughly speaking, it is how iOS securely stores passwords, authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
+
+iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (user preferences in unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
+
+The Keychain is supposed to be accessible only to the app that created the data or other apps or services from the same developer or organization. In addition, the user has to grant permission, which requires a passcode, Touch ID, or Face ID.
+
+The Keychain Services API can be used to save various sensitive data:
+
+* user metadata
+* passwords
+* credit cards
+* sensitive notes
+* cryptographic keys
+* certificates
+
+### Anti-Jailbreak
+
+Jailbroken iPhones are prone to attacks. Developers may add an extra layer of security to their apps by detecting those risky environments.
+
+There is no official method, but you may leverage commons apps installed on Jailbroken devices, like [Cydia](https://www.cydiacloud.com/jailbreak/). Note that programs like Cydia can be hidden, so an alternative approach could consist of testing apps that are notoriously broken by Jailbreak.
+
+There used to be an App called "System and Security Info" to run such diagnostic, but Apple [killed it](https://www.digitaltrends.com/mobile/system-and-security-info-iphone-app-news/) in 2016.
+
+This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-way) may provide some hints, though.
+
+### Getting started with iPhone Forensics
+
+[MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
 
 ## Going further
 
