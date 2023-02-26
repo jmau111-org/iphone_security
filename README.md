@@ -107,6 +107,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] disable app tracking if you don't need it (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
 - [x] hide your IP from trackers in Safari (Settings > Safari > Hide IP Address)
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
+- [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
 
 ### iPhone security basics
 
