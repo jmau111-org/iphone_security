@@ -153,13 +153,21 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] use CarPlay only in USB mode and not Bluetooth (wireless) to avoid Car Whisperer attacks (Settings > General > CarPlay)
 - [ ] cover your screen
 - [ ] switch to Airplane mode
-- [ ] use security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
+- [ ] use hardwarde security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
 - [ ] enable anti brute-force: erase data after 10 failed passcode attempts (Settings > Face ID & Passcode > Erase Data) [^2]
 - [ ] run a factory reset (Settings > General > Reset > Erase all content and settings)
 - [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > Safety Check)
 
 [^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
+
+## About hardware security keys
+
+Most phishing attacks against Apple IDs aim to steal credentials and classic OTP (One-Time passwords), which can be achieved remotely with SIM jacking or SIM swapping, for example. 
+
+Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
+
+You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose your security keys.
 
 ## Going further
 
