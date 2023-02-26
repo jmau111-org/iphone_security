@@ -20,7 +20,7 @@ However, what makes iPhone so special is probably its operating system iOS.
 
 ## What is iOS?
 
-Apple has specifically developed iOS for its iPhone. Unlike Android, it's not an open-source project and only Apple can modify and distribute it.
+Apple has developed iOS for its iPhone. Unlike Android, it's not an open-source project and only Apple can modify and distribute it.
 
 However, let's skip the debate "iOS vs. Android, which one is better" that is totally off-topic here.
 
