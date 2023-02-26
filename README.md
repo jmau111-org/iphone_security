@@ -79,7 +79,7 @@ It's unlikely individuals can fight against global actors using just their smart
 
 Apple aims to bring war to advanced attackers but may create the perfect conditions for them: it might be harder for inexperienced criminals to attack, but defenders and security researchers might also fail to detect and mitigate advanced threats.
 
-In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against skiddies but it may attract more advanced attackers.
+In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against the average criminal but it may attract more advanced attackers.
 
 Many security researchers struggle to find relevant documentation for important components and some compare Apple's products to "black boxes."
 
