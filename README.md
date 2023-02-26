@@ -163,6 +163,8 @@ You can opt out of various telemetries during the first install, but in case you
 
 ## About hardware security keys
 
+![](securitykey.png)
+
 Most phishing attacks against Apple IDs aim to steal credentials and classic OTP (One-Time passwords), which can be achieved remotely with SIM jacking or SIM swapping, for example. 
 
 Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
