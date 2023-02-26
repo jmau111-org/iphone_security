@@ -1,6 +1,6 @@
 # Another iPhone Security Guide
 
-Practical guide to better understand iPhone and its security mechanisms.
+Practical guide to better understand your iPhone and its security mechanisms.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/jmau111-org/iphone_security?label=last%20update%3A)
 
