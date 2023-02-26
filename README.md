@@ -199,7 +199,32 @@ You will have to set 2 keys in the settings, as Apple requires an emergency key 
 
 ## iOS for developers and security pros
 
-(todo)
+### Keychain
+
+Roughly speaking, it is how iOS securely stores passwords, authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
+
+iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
+
+The Keychain is supposed to be accessible only to the app that created the data or other apps or services from the same developer or organization. In addition, the user has to grant permission, which requires a passcode, Touch ID, or Face ID.
+
+The Keychain Services API can be used to save various sensitive data:
+
+* user metadata
+* passwords
+* credit cards
+* sensitive notes
+* cryptographic keys
+* certificates
+
+### Anti-jailbreak
+
+Jailbroken iPhones are prone to attacks. Developers may add an extra layer of security to their apps by detecting those risky environments.
+
+There is no official method, but you may leverage commons apps installed on Jailbroken devices, like [Cydia](https://www.cydiacloud.com/jailbreak/).
+
+Note that programs like Cydia can be hidden, so an alternative approach could consist of launching apps that are notoriously broken by Jailbreak.
+
+There used to be an App called "System and Security Info" to run such diagnostic, but Apple [killed it](https://www.digitaltrends.com/mobile/system-and-security-info-iphone-app-news/) in 2016.
 
 ## Going further
 
