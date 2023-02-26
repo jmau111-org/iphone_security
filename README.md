@@ -146,7 +146,7 @@ You can opt out of various telemetries during the first install, but in case you
 
 [^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
 
-## Beyond the scope of this guide
+## Going further
 
 * [Apple Security Bug Bounty Program](https://security.apple.com/bounty/)
 * [Apple Security Guides](https://support.apple.com/en-gb/guide/security/welcome/web)
