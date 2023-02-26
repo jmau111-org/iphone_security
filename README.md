@@ -167,7 +167,7 @@ Most phishing attacks against Apple IDs aim to steal credentials and classic OTP
 
 Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
 
-You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose your security keys.
+You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one.
 
 ## Going further
 
