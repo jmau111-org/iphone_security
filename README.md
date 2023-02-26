@@ -173,11 +173,12 @@ You can opt out of various telemetries during the first install, but in case you
 
 ⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
 
+- [x] use use Face ID or Touch ID in public
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
 - [x] use CarPlay only in USB mode and not Bluetooth (wireless) to avoid Car Whisperer attacks (Settings > General > CarPlay)
-- [ ] cover your screen
+- [ ] cover your screen when entering your passcode
 - [ ] switch to Airplane mode
 - [ ] use hardwarde security keys for your Apple ID (see https://support.apple.com/en-us/HT213154)
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
@@ -201,7 +202,7 @@ You will have to set 2 keys in the settings, as Apple requires an emergency key 
 
 ### Keychain
 
-Roughly speaking, it is how iOS securely stores passwords, authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
+Roughly speaking, it is how iOS securely stores passwords[^3], authentication tokens, and other sensitive information. In other words, it aims to prevent unauthorized access.
 
 iOS developers are invited to use Keychain to store and retrieve encrypted data, and not `UserDefaults` (unencrypted plist files). Because it's not trivial, some frameworks like [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) can help.
 
@@ -216,7 +217,9 @@ The Keychain Services API can be used to save various sensitive data:
 * cryptographic keys
 * certificates
 
-### Anti-jailbreak
+[^3]: Still, from the users perspective, password managers might be better than iCloud Keychain.
+
+### Anti-Jailbreak
 
 Jailbroken iPhones are prone to attacks. Developers may add an extra layer of security to their apps by detecting those risky environments.
 
@@ -225,6 +228,10 @@ There is no official method, but you may leverage commons apps installed on Jail
 Note that programs like Cydia can be hidden, so an alternative approach could consist of testing apps that are notoriously broken by Jailbreak.
 
 There used to be an App called "System and Security Info" to run such diagnostic, but Apple [killed it](https://www.digitaltrends.com/mobile/system-and-security-info-iphone-app-news/) in 2016.
+
+### Getting started with iPhone Forensics
+
+[MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
 
 ## Going further
 
