@@ -6,7 +6,7 @@ Practical guide to better understand iPhone and its security mechanisms.
 
 ## ⚠️ Disclaimer ⚠️
 
-This guide is meant for **iOS 16 and later versions**. Some parts may be debatable, but it's not uncommon in security guides.
+This guide is meant for **iOS 16 and later versions**. Some parts may be debatable, but it's quite common for security guides.
 
 ## What is iPhone?
 
@@ -28,14 +28,27 @@ iOS supports a wide range of features, from facial recognition to mobile payment
 
 ## iOS 16: a quick review
 
-### New iOS 16 security features
+### iPhone models compatible with iOS 16
+
+[Read that page](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios)
+
+### Security content of iOS 16.3
+
+[Read that page](https://support.apple.com/en-us/HT213606).
+
+### Apple security updates
+
+[Read that page](https://support.apple.com/en-us/HT201222)
+
+### Notable iOS 16 security features
 
 Beyond Face ID and other popular settings, iOS 16 provides interesting new security features:
 
 * **Rapid Security Response**: you can activate an option to install security hotfixes automatically as soon as it's released
 * **Safety Check**: shared access can be removed easily with an "emergency reset"
-* **protected clipboard**: apps cannot access it without your explicit permission
+* **protected clipboard**: apps cannot access the clipboard without your explicit permission
 * [**security keys for Apple ID**](https://support.apple.com/en-us/HT213154) (iOS 16.3)
+* **hidden and recently deleted albums require authentication**: via Face ID or passcode
 
 ### The potential benefits of an opaque system
 
@@ -102,6 +115,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] disable all Siri options if you don't need Siri (Settings > Siri & Search)
 - [x] disable analytics (Settings > Analytics & Improvments)
 - [x] disable Apple ads (Settings > Apple Advertising > Personalized Ads)
+- [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
 - [x] disable fitness tracking if you don't need it (Settings > Motion & Fitness > Fitness tracking)
 - [x] disable location tracking if you don't need it (Settings > Privacy and Security > Location Services)
 - [x] disable app tracking if you don't need it (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
@@ -111,15 +125,15 @@ You can opt out of various telemetries during the first install, but in case you
 
 ### iPhone security basics
 
-- [x] **don't** Jailbreak (unless you are a security researcher or a developer, but be aware of the consequences)
-- [x] use a password manager
+- [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
+- [x] use a password manager (e.g., 1P)
 - [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates
 - [x] keep all apps up-to-date
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
 - [x] use a strong Apple ID password and change it regularly
-- [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
+- [x] remove unused Apps
 - [x] filter unknown senders (Settings > Messages > Filter Unknown Senders)
 - [x] disable Bluetooth if you don't need it (Settings > Bluetooth)
 - [x] don't stay in Bluetooth settings (Settings > Bluetooth) while it's enabled, as your device is in discoverable mode
