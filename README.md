@@ -52,13 +52,37 @@ However, let's skip the debate "iOS vs. Android, which one is better" that is to
 
 iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
-## The problematic Passcodes
+## Face ID vs. Passcodes vs. usability
+
+### Use Alphanumeric Passcodes, not digits
 
 ![](passcode.png)
 
 Passcodes allow you to lock your iPhone with a 4 or 6-digit password, but it's a weak password by nature. You don't have to stick with the default option and can use a much much stronger passcode:
 
 Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code
+
+If someone looks at you when you're unlocking your phone, which is not unlikely (e.g., in a bar, public transports, etc), it's not very complicated to deduce what you're typing and remember a few digits, but a long and random password is way harder to catch.
+
+### Face ID might fail
+
+The above solution is fine but not realistic if you are a standard user. People touch their phone all day long, so if you have to type a very complicated password again and again, it could ruin your experience.
+
+That's probably why passcode options are not easy to find for the average eager user (very small unstyled hyperlink instead of a stylish button).
+
+Besides, Apple provides a feature called Face ID, which consists of scanning your face and use it as biometric authentication factor, so you can unlock your iPhone and access many features simply by showing your face to the camera.
+
+That's cool but in real-world conditions, especially in public places, Face ID tend to fail (many users have reported it), so the interface may often ask the passcode as a fallback.
+
+### Face ID with a Mask
+
+You need **at least an iPhone 12** to get that functionality. Models prior to that version won't have it.
+
+Apple shows an explicit message for users who might worry about potential privacy issues with Face ID. In short, it says that your biometric data never leave the phone (e.g., no iCloud sync) and you can disable Face ID at any time.
+
+Recent models (at the time of writing) support an additional feature called "Face ID with a Mask": Settings > Face ID & Passcode > Face ID with a Mask. When enabled, the phone checks the physical details around the human eyes instead of the full face, allowing to wear a mask when using Face ID.
+
+Some people might think it's a good idea, but I'm not sure of the benefits for privacy, and, in a security perspective, I would not recommend it. By definition, the face recognition is less accurate.
 
 ## iOS 16: a quick review
 
