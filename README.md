@@ -98,7 +98,7 @@ Again, this feature is limited to the most recent models at the time of writing,
 
 Settings > Face ID & Passcode > Unlock with Apple Watch
 
-Users can unlock their iPhone with a connected Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage this feature. Just don't use it.
+Users can unlock their iPhone with their Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage such configuration. Just don't use it.
 
 ## iOS 16: a quick review
 
