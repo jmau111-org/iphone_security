@@ -136,18 +136,22 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 ### iPhone privacy basics
 
-You can opt out of various telemetries during the first install, but in case you missed it:
+You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
 - [x] disable all Siri options if you don't need Siri (Settings > Siri & Search)
 - [x] disable analytics (Settings > Analytics & Improvments)
 - [x] disable Apple ads (Settings > Apple Advertising > Personalized Ads)
 - [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
-- [x] disable fitness tracking if you don't need it (Settings > Motion & Fitness > Fitness tracking)
-- [x] disable location tracking if you don't need it (Settings > Privacy and Security > Location Services)
+- [x] disable fitness tracking (Settings > Motion & Fitness > Fitness tracking)
+- [x] disable location tracking (Settings > Privacy and Security > Location Services)
 - [x] disable app tracking (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
 - [x] hide your IP from trackers in Safari (Settings > Safari > Hide IP Address)
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
 - [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
+
+Apple lets you review app permissions with some granularity, so review it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
+
+Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it if you can't do otherwise.
 
 ### iPhone security basics
 
