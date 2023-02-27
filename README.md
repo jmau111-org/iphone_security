@@ -52,6 +52,14 @@ However, let's skip the debate "iOS vs. Android, which one is better" that is to
 
 iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
+## The problematic Passcodes
+
+![](passcode.png)
+
+Passcodes allow you to lock your iPhone with a 4 or 6-digit password, but it's a weak password by nature. You don't have to stick with the default option and can use a much much stronger passcode:
+
+Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code
+
 ## iOS 16: a quick review
 
 ### iPhone models compatible with iOS 16
@@ -162,6 +170,8 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 - [x] use a password manager (e.g., 1P)
 - [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates)
 - [x] keep all apps up-to-date
+- [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
+- [x] disable **all** options for lock screen (Settings > Face ID & Passcode > Allow access when locked)
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
