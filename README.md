@@ -232,7 +232,7 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 
 ⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
 
-- [x] use use Face ID or Touch ID in public
+- [x] remove Face ID or Touch ID completely
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
