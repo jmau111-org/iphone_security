@@ -138,6 +138,9 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
+- [x] disable "Privacy preserving ad measurement" (Settings > Safari > Privacy preserving ad measurement), which is a misleading setting
+- [x] disable "Check for Apple Pay" (Settings > Safari > Check for Apple Pay)
+- [x] set "deny," or, at least, "ask" in "Settings for websites" in Safari (Settings > Safari > Settings for websites: location, microphone, etc)
 - [x] disable all Siri options if you don't need Siri (Settings > Siri & Search)
 - [x] disable analytics (Settings > Analytics & Improvments)
 - [x] disable Apple ads (Settings > Apple Advertising > Personalized Ads)
@@ -234,6 +237,8 @@ This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-wa
 ### Getting started with iPhone Forensics
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
+
+
 
 ## Going further
 
