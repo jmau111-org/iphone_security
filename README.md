@@ -80,9 +80,17 @@ You need **at least an iPhone 12** to get that functionality. Models prior to th
 
 Apple shows an explicit message for users who might worry about potential privacy issues with Face ID. In short, it says that your biometric data never leave the phone (e.g., no iCloud sync) and you can disable Face ID at any time.
 
-Recent models (at the time of writing) support an additional feature called "Face ID with a Mask": Settings > Face ID & Passcode > Face ID with a Mask. When enabled, the phone checks the physical details around the human eyes instead of the full face, allowing to wear a mask when using Face ID.
+Recent models (at the time of writing) support an additional feature called "Face ID with a Mask": Settings > Face ID & Passcode > Face ID with a Mask. When enabled, the phone checks the physical details around the human eyes instead of the full face, allowing users to wear a mask when using Face ID.
 
 Some people might think it's a good idea, but I'm not sure of the benefits for privacy, and, in a security perspective, I would not recommend it. By definition, the face recognition is less accurate.
+
+### Don't disable Attention for Face ID
+
+This is the most shocking setting, to me, as users can disable attention for Face ID: Settings > Face ID & Passcode > Require Attention for Face ID.
+
+In other words, the phone can look at your face and skip your eyes! Apple calls that scanning "an additional level of security," but it seems critical. The scan might pass when you're sleeping...
+
+Never disable this setting if you plan to use Face ID.
 
 ## iOS 16: a quick review
 
