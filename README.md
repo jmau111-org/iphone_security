@@ -62,17 +62,17 @@ Passcodes allow you to lock your iPhone with a 4 or 6-digit password, but it's a
 
 Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code
 
-If someone looks at you when you're unlocking your phone, which is not unlikely (e.g., in a bar, public transports, etc), it's not very complicated to deduce what you're typing and remember a few digits, but a long and random password is way harder to catch.
+If an attacker looks at you when you're unlocking your phone, which is not unlikely (e.g., in a bar, public transports, etc), he could deduce what you're typing and remember the digits, whereas a long and random password makes the whole operation more complicated.
 
 ### Face ID might fail
 
-The above solution is fine but not realistic if you are a standard user. People touch their phone all day long, so if you have to type a very complicated password again and again, it could ruin your experience.
+The above solution is fine but not realistic if you are a standard user. People use their phone all day long, so if they have to type a very complicated password again and again, it will ruin their experience.
 
 That's probably why passcode options are not easy to find for the average eager user (very small unstyled hyperlink instead of a stylish button).
 
 Besides, Apple provides a feature called Face ID, which consists of scanning your face and use it as biometric authentication factor, so you can unlock your iPhone and access many features simply by showing your face to the camera.
 
-That's cool but in real-world conditions, especially in public places, Face ID tend to fail (many users have reported it), so the interface may often ask the passcode as a fallback.
+That's cool but in real-world conditions, especially in public places, Face ID can fail (many users have reported it), so the interface may ask the passcode as a fallback.
 
 ### Face ID with a Mask
 
@@ -98,7 +98,7 @@ Again, this feature is limited to the most recent models at the time of writing,
 
 Settings > Face ID & Passcode > Unlock with Apple Watch
 
-Users can unlock their iPhone with their Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage such configuration. Just don't use it.
+Users can unlock their iPhone with their Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage such configuration. Just **don't use it**.
 
 ## iOS 16: a quick review
 
