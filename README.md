@@ -182,7 +182,7 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 ## How to secure iPhones
 
-### iPhone privacy basics
+### iPhone privacy basic checklist
 
 You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
@@ -204,7 +204,7 @@ Apple lets you review app permissions with some granularity, so review it regula
 
 Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
-### iPhone security basics
+### iPhone security basic checklist
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
 - [x] don't disable Attention for Face ID
