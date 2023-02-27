@@ -144,7 +144,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
 - [x] disable fitness tracking if you don't need it (Settings > Motion & Fitness > Fitness tracking)
 - [x] disable location tracking if you don't need it (Settings > Privacy and Security > Location Services)
-- [x] disable app tracking if you don't need it (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
+- [x] disable app tracking (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
 - [x] hide your IP from trackers in Safari (Settings > Safari > Hide IP Address)
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
 - [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
