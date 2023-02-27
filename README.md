@@ -207,8 +207,8 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 ### iPhone security basics
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
-- [x] Don't disable Attention for Face ID
-- [x] Don't allow your iPhone to be unlocked by your Apple Watch
+- [x] don't disable Attention for Face ID
+- [x] don't allow your iPhone to be unlocked by your Apple Watch
 - [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates)
 - [x] keep all apps up-to-date
 - [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
