@@ -290,7 +290,7 @@ This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-wa
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
 
-
+(todo)
 
 ## Going further
 
