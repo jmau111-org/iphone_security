@@ -52,7 +52,7 @@ However, let's skip the debate "iOS vs. Android, which one is better" that is to
 
 iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
-## Face ID vs. Passcodes vs. usability
+## Face ID vs. Passcodes vs. Apple Watch vs. usability
 
 ### Use Alphanumeric Passcodes, not digits
 
@@ -91,6 +91,14 @@ This is the most shocking setting, to me, as users can disable attention for Fac
 In other words, the phone can look at your face and skip your eyes! Apple calls that scanning "an additional level of security," but it seems critical. The scan might pass when you're sleeping...
 
 Never disable this setting if you plan to use Face ID.
+
+### Don't unlock with an Apple Watch
+
+Again, this feature is limited to the most recent models at the time of writing, but it seems hazardous in terms of security.
+
+Settings > Face ID & Passcode > Unlock with Apple Watch
+
+Users can unlock their iPhone with a connected Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage this feature. Just don't use it.
 
 ## iOS 16: a quick review
 
@@ -199,11 +207,13 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 ### iPhone security basics
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
-- [x] use a password manager (e.g., 1P)
+- [x] Don't disable Attention for Face ID
+- [x] Don't allow your iPhone to be unlocked by your Apple Watch
 - [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates)
 - [x] keep all apps up-to-date
 - [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
 - [x] disable **all** options for lock screen (Settings > Face ID & Passcode > Allow access when locked)
+- [x] use a password manager (e.g., 1P)
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
