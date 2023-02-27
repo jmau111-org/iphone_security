@@ -52,6 +52,54 @@ However, let's skip the debate "iOS vs. Android, which one is better" that is to
 
 iOS supports a wide range of features, from facial recognition to mobile payments and many other services. It's also composed of specific security layers.
 
+## Face ID vs. Passcodes vs. Apple Watch vs. usability
+
+### Use Alphanumeric Passcodes, not digits
+
+![](passcode.png)
+
+Passcodes allow you to lock your iPhone with a 4 or 6-digit password, but it's a weak password by nature. You don't have to stick with the default option and can use a much much stronger passcode:
+
+Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code
+
+If someone looks at you when you're unlocking your phone, which is not unlikely (e.g., in a bar, public transports, etc), it's not very complicated to deduce what you're typing and remember a few digits, but a long and random password is way harder to catch.
+
+### Face ID might fail
+
+The above solution is fine but not realistic if you are a standard user. People touch their phone all day long, so if you have to type a very complicated password again and again, it could ruin your experience.
+
+That's probably why passcode options are not easy to find for the average eager user (very small unstyled hyperlink instead of a stylish button).
+
+Besides, Apple provides a feature called Face ID, which consists of scanning your face and use it as biometric authentication factor, so you can unlock your iPhone and access many features simply by showing your face to the camera.
+
+That's cool but in real-world conditions, especially in public places, Face ID tend to fail (many users have reported it), so the interface may often ask the passcode as a fallback.
+
+### Face ID with a Mask
+
+You need **at least an iPhone 12** to get that functionality. Models prior to that version won't have it.
+
+Apple shows an explicit message for users who might worry about potential privacy issues with Face ID. In short, it says that your biometric data never leave the phone (e.g., no iCloud sync) and you can disable Face ID at any time.
+
+Recent models (at the time of writing) support an additional feature called "Face ID with a Mask": Settings > Face ID & Passcode > Face ID with a Mask. When enabled, the phone checks the physical details around the human eyes instead of the full face, allowing users to wear a mask when using Face ID.
+
+Some people might think it's a good idea, but I'm not sure of the benefits for privacy, and, in a security perspective, I would not recommend it. By definition, the face recognition is less accurate.
+
+### Don't disable Attention for Face ID
+
+This is the most shocking setting, to me, as users can disable attention for Face ID: Settings > Face ID & Passcode > Require Attention for Face ID.
+
+In other words, the phone can look at your face and skip your eyes! Apple calls that scanning "an additional level of security," but it seems critical. The scan might pass when you're sleeping...
+
+Never disable this setting if you plan to use Face ID.
+
+### Don't unlock with an Apple Watch
+
+Again, this feature is limited to the most recent models at the time of writing, but it seems hazardous in terms of security.
+
+Settings > Face ID & Passcode > Unlock with Apple Watch
+
+Users can unlock their iPhone with their Apple Watch. What a mess! There are so many credible scenarios where an attacker might leverage such configuration. Just don't use it.
+
 ## iOS 16: a quick review
 
 ### iPhone models compatible with iOS 16
@@ -136,25 +184,36 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 ### iPhone privacy basics
 
-You can opt out of various telemetries during the first install, but in case you missed it:
+You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
+- [x] disable "Privacy preserving ad measurement" (Settings > Safari > Privacy preserving ad measurement), which is a misleading setting
+- [x] disable "Check for Apple Pay" (Settings > Safari > Check for Apple Pay)
+- [x] set "deny," or, at least, "ask" in "Settings for websites" in Safari (Settings > Safari > Settings for websites: location, microphone, etc)
 - [x] disable all Siri options if you don't need Siri (Settings > Siri & Search)
 - [x] disable analytics (Settings > Analytics & Improvments)
 - [x] disable Apple ads (Settings > Apple Advertising > Personalized Ads)
 - [x] remove unused Apps, including pre-packaged apps like "Weather" or "TV"
-- [x] disable fitness tracking if you don't need it (Settings > Motion & Fitness > Fitness tracking)
-- [x] disable location tracking if you don't need it (Settings > Privacy and Security > Location Services)
-- [x] disable app tracking if you don't need it (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
+- [x] disable fitness tracking (Settings > Motion & Fitness > Fitness tracking)
+- [x] disable location tracking (Settings > Privacy and Security > Location Services)
+- [x] disable app tracking (Settings > Privacy and Security > Tracking > Allow Apps to Request to Track)
 - [x] hide your IP from trackers in Safari (Settings > Safari > Hide IP Address)
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
 - [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
 
+Apple lets you review app permissions with some granularity, so review it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
+
+Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
+
 ### iPhone security basics
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
-- [x] use a password manager (e.g., 1P)
-- [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates
+- [x] don't disable Attention for Face ID
+- [x] don't allow your iPhone to be unlocked by your Apple Watch
+- [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates)
 - [x] keep all apps up-to-date
+- [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
+- [x] disable **all** options for lock screen (Settings > Face ID & Passcode > Allow access when locked)
+- [x] use a password manager (e.g., 1P)
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
@@ -173,7 +232,7 @@ You can opt out of various telemetries during the first install, but in case you
 
 ⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
 
-- [x] use use Face ID or Touch ID in public
+- [x] remove Face ID or Touch ID completely
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
 - [x] inspect the battery health and activity (Settings > Battery)
 - [x] delete credit cards and other payments (Settings > Wallet & Apple Pay)
@@ -192,11 +251,11 @@ You can opt out of various telemetries during the first install, but in case you
 
 ![](securitykey.png)
 
-Most phishing attacks against Apple IDs aim to steal credentials and classic OTP (One-Time passwords), which can be achieved remotely with SIM jacking or SIM swapping, for example. 
+Most phishing attacks against Apple IDs aim to steal credentials remotely, and OTP codes (One-Time passwords) can be stolen with SIM jacking or SIM swapping. 
 
-Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
+Simple old classic theft can also do the job, as the iPhone holds the authentication factor. Now if you enable security keys, which are physical devices that may look like USB drives or NFC accessories, this is not the same story.
 
-You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one.
+You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one, but it's quite straightforward.
 
 ## iOS for developers and security pros
 
@@ -230,6 +289,8 @@ This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-wa
 ### Getting started with iPhone Forensics
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
+
+
 
 ## Going further
 
