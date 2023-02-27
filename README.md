@@ -151,7 +151,7 @@ You can opt out of various telemetries during the first install, but in case you
 
 Apple lets you review app permissions with some granularity, so review it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
 
-Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it if you can't do otherwise.
+Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
 ### iPhone security basics
 
