@@ -153,7 +153,7 @@ You can opt out of various telemetries during the first install, but in case you
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
 - [x] use a password manager (e.g., 1P)
-- [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates
+- [x] enable automatic updates and security hotfixes (Settings > General > Software Update > Automatic Updates)
 - [x] keep all apps up-to-date
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
@@ -192,11 +192,11 @@ You can opt out of various telemetries during the first install, but in case you
 
 ![](securitykey.png)
 
-Most phishing attacks against Apple IDs aim to steal credentials and classic OTP (One-Time passwords), which can be achieved remotely with SIM jacking or SIM swapping, for example. 
+Most phishing attacks against Apple IDs aim to steal credentials remotely, and OTP codes (One-Time passwords) can be stolen with SIM jacking or SIM swapping. 
 
-Simple classic theft can also do the trick. If someone manages to steal your phone, he will hold the authentication factor, but if you enable security keys, which are physical devices that look like USB drives, this outcome is very unlikely.
+Simple old classic theft can also do the job, as the iPhone holds the authentication factor. Now if you enable security keys, which are physical devices that may look like USB drives or NFC accessories, this is not the same story.
 
-You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one.
+You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one, but it's quite straightforward.
 
 ## iOS for developers and security pros
 
