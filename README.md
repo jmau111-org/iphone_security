@@ -200,7 +200,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
 - [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
 
-Apple lets you review app permissions with some granularity, so review it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
+Apple lets you review app permissions with some granularity, so do it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
 
 Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
@@ -243,7 +243,7 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
 - [ ] enable anti brute-force: erase data after 10 failed passcode attempts (Settings > Face ID & Passcode > Erase Data) [^2]
 - [ ] run a factory reset (Settings > General > Reset > Erase all content and settings)
-- [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > Safety Check)
+- [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > LockDown Mode)
 
 [^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
 
@@ -289,8 +289,6 @@ This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-wa
 ### Getting started with iPhone Forensics
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
-
-
 
 ## Going further
 
