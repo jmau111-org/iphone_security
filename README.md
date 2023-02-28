@@ -286,7 +286,9 @@ There used to be an App called "System and Security Info" to run such diagnostic
 
 This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-way) may provide some hints, though.
 
-### Getting started with iPhone Forensics
+### iPhone Forensics
+
+You may use [iLEAPP](https://github.com/abrignoni/iLEAPP) to ease the process.
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
 
