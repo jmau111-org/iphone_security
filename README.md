@@ -104,15 +104,19 @@ Users can unlock their iPhone with their Apple Watch. What a mess! There are so 
 
 ### iPhone models compatible with iOS 16
 
-[Read that page](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios)
+[Get the official list](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios)
 
-### Security content of iOS 16.3
+### The security content of iOS 16.3
 
-[Read that page](https://support.apple.com/en-us/HT213606).
+[Read HT213606](https://support.apple.com/en-us/HT213606)
+
+### The security content of iOS 16.3.1
+
+[Read HT213635](https://support.apple.com/en-gb/HT213635) 
 
 ### Apple security updates
 
-[Read that page](https://support.apple.com/en-us/HT201222)
+[Read HT201222](https://support.apple.com/en-us/HT201222)
 
 ### Notable iOS 16 security features
 
@@ -200,7 +204,7 @@ You can opt out of various telemetries during the first install, but in case you
 - [x] restrict app access to your local network (Settings > Privacy and Security > Local Network)
 - [x] add a [camera cover](https://www.amazon.com/iphone-case-camera-cover/s?k=iphone+case+camera+cover)
 
-Apple lets you review app permissions with some granularity, so review it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
+Apple lets you review app permissions with some granularity, so do it regularly: Settings > Privacy and Security. Unfortunately, it's a bit time-consuming, as you'll probably have to review each app, one by one, but it's worth it.
 
 Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
@@ -243,7 +247,7 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 - [ ] use [Signal](https://apps.apple.com/us/app/signal-private-messenger/id874139669)
 - [ ] enable anti brute-force: erase data after 10 failed passcode attempts (Settings > Face ID & Passcode > Erase Data) [^2]
 - [ ] run a factory reset (Settings > General > Reset > Erase all content and settings)
-- [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > Safety Check)
+- [ ] enable [LockDown Mode](#ios-16-lockdown-mode) (Settings > Privacy and Security > LockDown Mode)
 
 [^2]: ensure you backup your data regularly (e.g., using iCloud) if you enable this option
 
@@ -286,11 +290,11 @@ There used to be an App called "System and Security Info" to run such diagnostic
 
 This [repo](https://github.com/vadim-a-yegorov/Jailbreak-detection-The-modern-way) may provide some hints, though.
 
-### Getting started with iPhone Forensics
+### iPhone Forensics
+
+You may use [iLEAPP](https://github.com/abrignoni/iLEAPP) to ease the process.
 
 [MVT](https://github.com/mvt-project/mvt) (Mobile Verification Toolkit) can help detect advanced compromises on iOS devices (e.g., Pegasus software).
-
-
 
 ## Going further
 
