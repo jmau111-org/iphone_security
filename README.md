@@ -104,19 +104,19 @@ Users can unlock their iPhone with their Apple Watch. What a mess! There are so 
 
 ### iPhone models compatible with iOS 16
 
-[Read that page](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios)
+[Get the official list](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/ios)
 
 ### The security content of iOS 16.3
 
-[Read that page](https://support.apple.com/en-us/HT213606)
+[Read HT213606](https://support.apple.com/en-us/HT213606)
 
 ### The security content of iOS 16.3.1
 
-[Read that page](https://support.apple.com/en-gb/HT213635) 
+[Read HT213635](https://support.apple.com/en-gb/HT213635) 
 
 ### Apple security updates
 
-[Read that page](https://support.apple.com/en-us/HT201222)
+[Read HT201222](https://support.apple.com/en-us/HT201222)
 
 ### Notable iOS 16 security features
 
