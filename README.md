@@ -184,7 +184,75 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 ## How to secure iPhones
 
-### iPhone privacy basics
+### Personas
+
+#### What is a persona?
+
+Internet defines personas as digital representations of individuals or entities. These are not real persons but typical profiles that are widely used in marketing but also in other fields, such as cybersecurity.
+
+_N.B: I may have used an AI to generate these fictious profiles here ^^_
+
+#### Meet Sarah & John (experimental)
+
+Sarah:
+
+```
+Name: Sarah
+Age: 35
+Occupation: iOS dev
+Location: San Francisco, CA
+
+Personality:
+    Analytical
+    Tech-savvy
+    Cybersecurity-aware
+    Problem solver
+    Persistent
+    Curious
+
+Device: iPhone 13 Pro Max
+
+Usage:
+    Uses her iPhone for work and personal communication
+    Uses a 6-digit passcode
+    Uses various apps to access work-related data
+    Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
+```
+
+Joe:
+
+```
+Name: Joe
+Age: 50
+Occupation: Sales Manager
+
+Location: New York City, NY
+
+Personality:
+    Business-oriented
+    Trusting
+    Non-technical
+    Relies on others for technical support
+    Time-poor
+    Values convenience
+
+Device: iPhone 12
+
+Usage:
+    Uses iPhone to make payments, including for business expenses
+    Uses iPhone to access work email and schedule appointments
+    Uses iPhone to store business contacts and important information
+    Does not regularly update his iPhone's software or take other security precautions
+    Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
+```
+
+Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. If an attacker looks over her shoulder and steal her phone.
+
+Such scenario is credible and criminals can use the stolen iPhone to change passcodes and lock her out of many other connected accounts. It can be achieved in a few minutes or less, especially if she stores her passwords in the built-in password manager to speed up authentication.
+
+They could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
+
+### iPhone privacy checklist
 
 You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
@@ -206,7 +274,7 @@ Apple lets you review app permissions with some granularity, so do it regularly:
 
 Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
-### iPhone security basics
+### iPhone security checklist
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
 - [x] don't disable Attention for Face ID
