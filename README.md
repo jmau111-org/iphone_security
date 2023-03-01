@@ -160,9 +160,7 @@ The company is targeting mercernary enterprises like NSO that successfully defea
 
 However, these sophisticated actors are constantly working on new exploits, and can leverage _alternative_ markets for iOS zero-days and zero-click exploits [^1].
 
-While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities. 
-
-It's unlikely individuals can fight against global actors using just their smartphones! Would nation states even allow such products?!
+While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities.
 
 [^1]: 0-days are vulnerabilities that remain unknown or unpatched by those who should be interested in their mitigation (e.g., vendors, developers), and zero-click attacks often leverage 0-days to infect the victims without any user interaction.
 
