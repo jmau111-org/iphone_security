@@ -170,11 +170,11 @@ It's unlikely individuals can fight against global actors using just their smart
 
 Apple aims to bring war to advanced attackers but may create the perfect conditions for them: it might be harder for inexperienced criminals to attack, but defenders and security researchers might also fail to detect and mitigate advanced threats.
 
-In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against the average criminal but it may attract more advanced attackers.
+In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against inexperienced criminals but it may attract more advanced attackers.
 
 Many security researchers struggle to find relevant documentation for important components and some compare Apple's products to "black boxes."
 
-Another big caveat is that iOS users are tied to Apple. If the company misses a critical vulnerability or makes bad decisions, there's very little, perhaps nothing you can do about it.
+Another big caveat is that iOS users are tied to Apple _de facto_. If the company misses a critical vulnerability or makes some bad decisions, there's very little, perhaps nothing users can do about it.
 
 ### The latest versions are not immune to attacks
 
@@ -234,7 +234,7 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 
 ### In doubt
 
-⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
+⚠️ Some of the following measures might be either extreme or insufficient, or even inappropriate for your threat model:
 
 - [x] remove Face ID or Touch ID completely
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
