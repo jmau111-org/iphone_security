@@ -246,11 +246,11 @@ Usage:
     Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
 ```
 
-Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. If an attacker looks over her shoulder and steal her phone.
+Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. An attacker could look over her shoulder and steal her phone.
 
 Such scenario is credible and criminals can use the stolen iPhone to change passcodes and lock her out of many other connected accounts. It can be achieved in a few minutes or less, especially if she stores her passwords in the built-in password manager to speed up authentication.
 
-They could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
+The potential victim could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
 
 ### iPhone privacy checklist
 
@@ -283,7 +283,8 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 - [x] keep all apps up-to-date
 - [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
 - [x] disable **all** options for lock screen (Settings > Face ID & Passcode > Allow access when locked)
-- [x] use a password manager (e.g., 1P)
+- [x] use a third-party password manager (e.g., 1P)
+- [x] if the third-party password manager does not disable the built-in one uncheck it: Settings > Passwords > Password Options > AutoFill Passwords
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
@@ -326,6 +327,14 @@ Most phishing attacks against Apple IDs aim to steal credentials remotely, and O
 Simple old classic theft can also do the job, as the iPhone holds the authentication factor. Now if you enable security keys, which are physical devices that may look like USB drives or NFC accessories, this is not the same story.
 
 You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one, but it's quite straightforward.
+
+## Best free Apps
+
+- [x] Bitwarden: password manager
+- [x] Find my iPhone: built-in app (no install unless you have deleted it) to locate your device on a map
+- [x] Protonmail: email client for Protonmail accounts
+- [x] Malwarebytes: malware & ad blocking, filtering
+- [x] Note Lock: keep personal notes private
 
 ## iOS for developers and security pros
 
