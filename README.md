@@ -219,10 +219,10 @@ Usage:
     Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
 ```
 
-Joe:
+John:
 
 ```
-Name: Joe
+Name: John
 Age: 50
 Occupation: Sales Manager
 
