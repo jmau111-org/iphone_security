@@ -283,7 +283,8 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 - [x] keep all apps up-to-date
 - [x] use an Alphanumeric Passcode instead of digits (Settings > Face ID & Passcode > Change Passcode > Passcode Options > Custom Alphanumeric Code)
 - [x] disable **all** options for lock screen (Settings > Face ID & Passcode > Allow access when locked)
-- [x] use a password manager (e.g., 1P)
+- [x] use a third-party password manager (e.g., 1P)
+- [x] if the third-party password manager does not disable the built-in one uncheck it: Settings > Passwords > Password Options > AutoFill Passwords
 - [x] don't click on links in unsollicited messages
 - [x] review app permissions (Settings > Privacy and Security)
 - [x] review third-party apps carefully **before** installing them: look at the ratings, the number of downloads, etc
