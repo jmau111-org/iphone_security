@@ -160,9 +160,7 @@ The company is targeting mercernary enterprises like NSO that successfully defea
 
 However, these sophisticated actors are constantly working on new exploits, and can leverage _alternative_ markets for iOS zero-days and zero-click exploits [^1].
 
-While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities. 
-
-It's unlikely individuals can fight against global actors using just their smartphones! Would nation states even allow such products?!
+While the LockDown mode is undeniably restrictive, it cannot cover all vulnerabilities.
 
 [^1]: 0-days are vulnerabilities that remain unknown or unpatched by those who should be interested in their mitigation (e.g., vendors, developers), and zero-click attacks often leverage 0-days to infect the victims without any user interaction.
 
@@ -170,11 +168,11 @@ It's unlikely individuals can fight against global actors using just their smart
 
 Apple aims to bring war to advanced attackers but may create the perfect conditions for them: it might be harder for inexperienced criminals to attack, but defenders and security researchers might also fail to detect and mitigate advanced threats.
 
-In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against the average criminal but it may attract more advanced attackers.
+In the [macOS security guide](https://github.com/jmau111-org/macos_security), we see that Apple products are pretty secure against inexperienced criminals but it may attract more advanced attackers.
 
 Many security researchers struggle to find relevant documentation for important components and some compare Apple's products to "black boxes."
 
-Another big caveat is that iOS users are tied to Apple. If the company misses a critical vulnerability or makes bad decisions, there's very little, perhaps nothing you can do about it.
+Another big caveat is that iOS users are tied to Apple _de facto_. If the company misses a critical vulnerability or makes some bad decisions, there's very little, perhaps nothing users can do about it.
 
 ### The latest versions are not immune to attacks
 
@@ -186,7 +184,75 @@ Trellix researcher Austin Emmitt recently discovered new vulnerabilities and dec
 
 ## How to secure iPhones
 
-### iPhone privacy basics
+### Personas
+
+#### What is a persona?
+
+Internet defines personas as digital representations of individuals or entities. These are not real persons but typical profiles that are widely used in marketing but also in other fields, such as cybersecurity.
+
+_N.B: I may have used an AI to generate these fictious profiles here ^^_
+
+#### Meet Sarah & John (experimental)
+
+Sarah:
+
+```
+Name: Sarah
+Age: 35
+Occupation: iOS dev
+Location: San Francisco, CA
+
+Personality:
+    Analytical
+    Tech-savvy
+    Cybersecurity-aware
+    Problem solver
+    Persistent
+    Curious
+
+Device: iPhone 13 Pro Max
+
+Usage:
+    Uses her iPhone for work and personal communication
+    Uses a 6-digit passcode
+    Uses various apps to access work-related data
+    Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
+```
+
+Joe:
+
+```
+Name: Joe
+Age: 50
+Occupation: Sales Manager
+
+Location: New York City, NY
+
+Personality:
+    Business-oriented
+    Trusting
+    Non-technical
+    Relies on others for technical support
+    Time-poor
+    Values convenience
+
+Device: iPhone 12
+
+Usage:
+    Uses iPhone to make payments, including for business expenses
+    Uses iPhone to access work email and schedule appointments
+    Uses iPhone to store business contacts and important information
+    Does not regularly update his iPhone's software or take other security precautions
+    Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
+```
+
+Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. If an attacker looks over her shoulder and steal her phone.
+
+Such scenario is credible and criminals can use the stolen iPhone to change passcodes and lock her out of many other connected accounts. It can be achieved in a few minutes or less, especially if she stores her passwords in the built-in password manager to speed up authentication.
+
+They could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
+
+### iPhone privacy checklist
 
 You can opt out of various telemetries during the first install, but in case you missed it, here are some reminders:
 
@@ -208,7 +274,7 @@ Apple lets you review app permissions with some granularity, so do it regularly:
 
 Tracking is not free in terms of privacy, but also for the battery. It can literally drain your power, so only enable it when it's necessary, and you don't have to give a permanent access.
 
-### iPhone security basics
+### iPhone security checklist
 
 - [x] **don't** Jailbreak (unless you run the system as a security researcher or an iOS developer, but be aware of the consequences)
 - [x] don't disable Attention for Face ID
@@ -234,7 +300,7 @@ Tracking is not free in terms of privacy, but also for the battery. It can liter
 
 ### In doubt
 
-⚠️ Some of the following measures might be too extreme or insufficient, perhaps inappropriate (check your threat model):
+⚠️ Some of the following measures might be either extreme or insufficient, or even inappropriate for your threat model:
 
 - [x] remove Face ID or Touch ID completely
 - [x] run a "Safety check" (Settings > Privacy and Security > Safety Check)
