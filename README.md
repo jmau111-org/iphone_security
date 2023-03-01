@@ -332,7 +332,7 @@ You will have to set 2 keys in the settings, as Apple requires an emergency key 
 
 - [x] Bitwarden: password manager
 - [x] Find my iPhone: built-in app (no install unless you have deleted it) to locate your device on a map
-- [x] Protonmail client: email client for Protonmail accounts
+- [x] Protonmail: email client for Protonmail accounts
 - [x] Malwarebytes: malware & ad blocking, filtering
 - [x] Note Lock: keep personal notes private
 
