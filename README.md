@@ -328,6 +328,14 @@ Simple old classic theft can also do the job, as the iPhone holds the authentica
 
 You will have to set 2 keys in the settings, as Apple requires an emergency key in case you lose the first one, but it's quite straightforward.
 
+## Best free Apps
+
+- [x] Bitwarden: password manager
+- [x] Find my iPhone: built-in app (no install unless you have deleted it) to locate your device on a map
+- [x] Protonmail client: email client for Protonmail accounts
+- [x] Malwarebytes: malware & ad blocking, filtering
+- [x] Note Lock: keep personal notes private
+
 ## iOS for developers and security pros
 
 ### Keychain
