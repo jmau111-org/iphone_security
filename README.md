@@ -246,11 +246,11 @@ Usage:
     Frequently travels for work and uses iPhone for navigation, booking hotels, and other related activities
 ```
 
-Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. If an attacker looks over her shoulder and steal her phone.
+Both Sarah and John are not safe. John should be more concerned, but Sarah should not rely on basic passcodes to secure her phone. An attacker could look over her shoulder and steal her phone.
 
 Such scenario is credible and criminals can use the stolen iPhone to change passcodes and lock her out of many other connected accounts. It can be achieved in a few minutes or less, especially if she stores her passwords in the built-in password manager to speed up authentication.
 
-They could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
+The potential victim could leverage the privacy and security checklists of these guide (next part), but none of them will enable the LockDown Mode, and even they do, this "extreme" configuration does not prevent users from using very weak passcodes...
 
 ### iPhone privacy checklist
 
